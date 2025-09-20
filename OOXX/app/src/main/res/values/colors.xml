@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础颜色 -->
+    <color name="transparent_black">#80000000</color>
+    <color name="transparent_white">#80FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#808080</color>
+
+    <!-- 棋盘和棋子颜色 -->
+    <color name="board_color">#FF000000</color>  <!-- 棋盘线颜色 - 黑色 -->
+    <color name="x_color">#FFFF0000</color>      <!-- X棋子颜色 - 红色 -->
+    <color name="o_color">#FF0000FF</color>      <!-- O棋子颜色 - 蓝色 -->
+    <color name="win_color">#FFFFFF00</color>    <!-- 胜利线颜色 - 黄色 -->
+
+    <!-- 排行榜颜色 -->
+    <color name="gold">#FFFFD700</color>         <!-- 金牌颜色 -->
+    <color name="silver">#FFC0C0C0</color>       <!-- 银牌颜色 -->
+    <color name="bronze">#FFCD7F32</color>       <!-- 铜牌颜色 -->
+
+    <!-- 其他可能用到的颜色 -->
+    <color name="background_dark">#FF2C3E50</color>
+    <color name="accent">#FF3498DB</color>
+    <color name="success">#FF27AE60</color>
+    <color name="warning">#FFE67E22</color>
+    <color name="error">#FFE74C3C</color>
+
+    <!-- 卡片背景 -->
+    <color name="card_background">#33FFFFFF</color>
+    <color name="list_divider">#1FFFFFFF</color>
+
+    <!-- 主题颜色 -->
+    <color name="color_easy">#4CAF50</color>
+    <color name="color_medium">#FF9800</color>
+    <color name="color_hard">#F44336</color>
+    <color name="color_online">#2196F3</color>
+    <color name="color_primary">#673AB7</color>
+
+    <!-- 渐变背景颜色 -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+
+    <color name="gold_border">#FFD700</color>
+    <color name="silver_border">#C0C0C0</color>
+    <color name="bronze_border">#CD7F32</color>
+    <color name="default_border">#50FFFFFF</color>
+
+
+    <color name="primary">#3F51B5</color>
+    <color name="hint_blue">#FFFFce</color>
+    <color name="filled">#333333</color>
+    <color name="marked">#BBDEFB</color>
+    <color name="empty">#FAFAFA</color>
+    <color name="orange">#FBBAA6</color>
+    <color name="test">#9A2A2A</color>
+
+
+    <color name="background">#F5F7FA</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="gold_light">#FFF8E1</color>
+    <color name="silver_light">#F5F5F5</color>
+    <color name="bronze_light">#FAEBD7</color>
+
+</resources>

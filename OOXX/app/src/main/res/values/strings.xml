@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OOXX游戏</string>
+    <string name="music">音乐</string>
+    <string name="game_id">题目ID：0</string>
+    <string name="difficulty">难度：简单</string>
+    <string name="timer">00:00</string>
+    <string name="game_preparing">游戏准备中</string>
+    <string name="current_player">当前玩家：X</string>
+    <string name="rank">排行榜</string>
+    <string name="restart">重新开始</string>
+    <string name="quit">退出游戏</string>
+
+
+    <string name="back">返回</string>
+    <string name="multiplayer_background_desc">多人对战大厅背景图</string>
+    <string name="multiplayer_lobby">多人对战大厅</string>
+    <string name="online_battle">网络对战</string>
+    <string name="online_battle_desc">与全球玩家在线对战</string>
+    <string name="online_battle_content_desc">网络对战，与全球玩家在线对战</string>
+    <string name="bluetooth_battle">蓝牙对战</string>
+    <string name="refresh_device_list">刷新设备列表</string>
+    <string name="no_devices_found">没有找到设备\n请确保蓝牙已开启并设备已配对</string>
+
+
+</resources>

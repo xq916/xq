@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/dialog_bg">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="游戏规则"
+        android:textColor="#FF6B00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 规则内容 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rules_bg"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:lineSpacingMultiplier="1.1"
+            android:text="· 将X和O填充到剩余的方格内:"
+            android:textColor="#444444"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:lineSpacingMultiplier="1.1"
+            android:text="· 每一行及每一列中没有超过俩个连续的X或O。"
+            android:textColor="#444444"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:lineSpacingMultiplier="1.1"
+            android:text="· 每一行及每一列中的X和O数量相同。"
+            android:textColor="#444444"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.1"
+            android:text="· 每一行及每一列都是唯一的。"
+            android:textColor="#444444"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 确定按钮 -->
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="确定"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center"/>
+</LinearLayout>

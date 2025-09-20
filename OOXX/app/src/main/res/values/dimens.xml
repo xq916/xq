@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 棋盘内边距 -->
+    <dimen name="board_padding">16dp</dimen>
+    <dimen name="rank_item_corner_radius">12dp</dimen>
+</resources>
